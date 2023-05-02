@@ -5,11 +5,11 @@ export default {
 </script>
 
 <template>
-    <h2>Ciao come va?</h2>
+    <h1>La mia prima App con Vue!</h1>
 </template>
 
 <style scoped>
-h2 {
+h1 {
     color: red;
 }
 </style>

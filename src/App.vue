@@ -1,21 +1,30 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
 
 export default {
   name: "App",
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
 
 <template>
-  <h1>La mia prima App con Vue!</h1>
-  <AppTitle />
+  <div id="title">
+    <AppTitle />
+  </div>
+
+  <div id="images">
+
+    <AppHero />
+  </div>
 </template>
 
 <style scoped>
-h1 {
-  color: green;
+#title,
+#images {
+  text-align: center;
 }
 </style>
